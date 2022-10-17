@@ -1,0 +1,66 @@
+
+
+.motivos {
+    
+    margin: 2rem ;
+    display: flex;
+    flex-direction: column; 
+
+}
+
+.motivos h2{
+    align-items: center;
+}
+
+
+.motivos  p {
+     line-height: 2rem;
+     text-align: justify;    
+}
+
+
+
+
+
+
+.refugios-opciones{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.refugios-opciones h2{
+    text-decoration:underline;
+}
+
+
+
+
+.instagram{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+   
+}
+
+.instagram iframe{
+    margin: 1rem;
+    max-width: 32%;
+    border: none;
+    overflow: hidden;
+}
+
+@media (max-width:780px){
+
+.instagram {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.instagram iframe {
+    max-width: none;
+    
+}}
+
+
+
+

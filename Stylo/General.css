@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+ 
+h1, h2, h3, h4, h5 {
+    font-family: 'Abril Fatface', cursive;
+} 
+
+main{
+       
+    font-family: 'Abril Fatface', cursive; 
+
+} 
+
+
+
+
+
+/*Header*/
+
+
+
+ .menu-header{
+    position: sticky;
+    background-color:#DDA6DF ;
+    height: 5rem;
+    width: 100%;
+    
+} 
+
+
+
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+
+.logo{
+    height: 2.5rem;
+}
+
+.menu{
+float: right;
+list-style: none;
+margin-right: 20px;
+} 
+
+
+
+ .menu li{
+    display: inline-block;
+    line-height: 80px ;
+    margin: 0 5px;
+} 
+
+ .menu li a{
+    color: aqua;
+    padding: 7px 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 3px;
+} 
+
+
+
+
+li a.active, li a:hover{
+    background-color: blueviolet;
+    transition: .5s;
+}
+
+
+.checkbtn{
+    font-size: 30px;
+    color: blueviolet;
+    float: right;
+    line-height: 80px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;}
+
+#check{
+    display: none;
+}
+
+
+@media (max-width:952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    
+    .menu li a{
+        font-size: 16px;}
+    
+}
+
+
+@media (max-width:858px){
+    main{
+        padding-top: 5rem;
+    }
+    .checkbtn{
+        display: block;
+
+    }
+
+    .menu-header{
+        position: fixed;  
+        z-index:100;
+
+    }
+    .menu{
+        position: fixed;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        background: #DDA6DF;
+        top:79px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+ 
+    .logo{
+        width: 50px;
+    }
+    .menu li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+
+    }
+    .menu li a{
+        font-size: 20px;
+
+    }
+
+    li a:hover, li a.active{
+        background: none;
+        color: aqua;
+
+
+    }
+#check:checked ~ .menu{
+    left: 0;
+}
+
+}
+
+/*footer*/
+
+.Pie-pagina{
+    
+    width: 100%;
+    background-color: #DDA6DF;
+    font-family: 'Abril Fatface', cursive;
+
+}
+
+.grupo1{
+
+    background:#DDA6DF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+
+.opciones-menu-Footer{
+    list-style: none;
+}
+
+.opciones-menu-Footer a{
+    text-decoration: none; 
+    font-style:italic;
+    
+
+}
+
+.Redes{
+    background:#DDA6DF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.Redes a{
+    text-decoration: none; 
+    display: inline-block;
+    padding: 7px 13px;
+}
+
+
+.grupo2{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Abril Fatface', cursive;
+} 
+.desarrollo {
+    font-size: 0.5rem;
+    color: #f4edf4;
+    background: #121212;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+    
+}
+.desarrollo a {
+    font-size: 1.5rem;
+}
+.desarrollo i {
+    color: #f4edf4;
+    margin: 1rem;
+}

@@ -1,0 +1,118 @@
+.contenido-principal{
+    position: relative;
+    overflow: hidden; 
+}
+
+.imagenes-portada{
+    display: flex;
+    width: 500%;
+    animation: cambio 20s infinite;
+}
+
+.contenido-principal img {
+    width: 20%;
+    
+}
+
+.texto-portada {
+    position: relative;
+    
+    display: flex;
+    color: #a017a0;
+    font-size: 4rem;
+    justify-content: center;
+    height: 4rem;
+    overflow: hidden;
+    line-height: 3.75rem;
+    text-shadow: 1px 1px 2px rgb(249, 247, 247), 0 0 0.2em rgb(248, 248, 251);
+}
+.texto-portadamov{
+    list-style: none;
+    padding-left: 0.5rem;
+    animation: cambiar 7s infinite;
+} 
+
+.Detalles{
+    text-align: center;
+    
+}
+
+.Detalles h1{
+    font-size: 3rem;
+
+}
+
+.Detalles h2{
+    font-size: 2rem;
+    color: #cf6ecf;
+
+}
+
+.Detalles p{
+    font-size: 1.5rem;
+
+}
+
+/*resposive*/
+@media (max-width:768px){
+    
+    .texto-portada{
+        font-size: 5vh;}
+}
+
+
+@media (max-width:576){
+    
+    
+    .texto-portada{
+    font-size: 3vh;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Animaciones*/
+@keyframes cambiar {
+    0%{margin-top: 0;}
+    20%{margin-top: 0;}
+
+    25%{margin-top: -3.75rem;}
+    50%{margin-top: -3.75rem;}
+
+    55%{margin-top: -7.50rem;}
+    80%{margin-top: -7.50rem;}
+
+    85%{margin-top: -3.75rem;}
+    95%{margin-top: -3.75rem;}
+
+    100%{margin-top: 0;}
+
+}
+
+ @keyframes cambio {
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    50%{margin-left: -100%;}
+
+    55%{margin-left: -200%;}
+    80%{margin-left: -200%;}
+
+    85%{margin-left: -100%;}
+    95%{margin-left: -100%;}
+
+    100%{margin-left: 0;}
+
+} 
