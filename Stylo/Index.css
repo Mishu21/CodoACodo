@@ -54,19 +54,29 @@
 }
 
 /*resposive*/
+
+
+
+@media (max-width:952px){
+    
+    .texto-portada{
+    font-size: 5vh;
+    transition: all .5s;
+}
+}
+
 @media (max-width:768px){
     
     .texto-portada{
-        font-size: 5vh;}
+        font-size: 3vh;
+        transition: all .5s;
+    }
+    main{
+            padding-top: 5rem;
+        }
 }
 
 
-@media (max-width:576){
-    
-    
-    .texto-portada{
-    font-size: 3vh;}
-}
 
 
 

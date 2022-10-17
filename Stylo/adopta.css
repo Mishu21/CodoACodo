@@ -1,25 +1,26 @@
 
 
 .motivos {
-    
-    margin: 2rem ;
+    position: relative;
+     margin: 2rem ; 
     display: flex;
     flex-direction: column; 
 
 }
 
-.motivos h2{
-    align-items: center;
+.motivos h2, h1{
+    text-align: center;
+    line-height: 4rem;
+    text-transform: uppercase;   
+    
 }
 
 
 .motivos  p {
      line-height: 2rem;
-     text-align: justify;    
+     text-align: justify; 
+     
 }
-
-
-
 
 
 
@@ -50,7 +51,10 @@
     overflow: hidden;
 }
 
-@media (max-width:780px){
+@media (max-width:768px){
+    main{
+        padding-top: 5rem;
+    }
 
 .instagram {
     flex-wrap: wrap;

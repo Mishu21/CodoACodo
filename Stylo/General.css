@@ -99,10 +99,8 @@ li a.active, li a:hover{
 }
 
 
-@media (max-width:858px){
-    main{
-        padding-top: 5rem;
-    }
+@media (max-width:768px){
+    
     .checkbtn{
         display: block;
 
@@ -178,7 +176,7 @@ li a.active, li a:hover{
 
 .opciones-menu-Footer a{
     text-decoration: none; 
-    font-style:italic;
+    
     
 
 }
