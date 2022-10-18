@@ -6,84 +6,84 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylo/Index.css">
     <link rel="stylesheet" href="stylo/General.css">
     <link rel="icon" href="Imagenes/Navegador.png">
     <script src="https://kit.fontawesome.com/2f54d626e8.js" crossorigin="anonymous"></script>
     <title>Mascotas</title>
+    <style>
+        .contenido-principal{
+        animation: animate 16s ease-in-out infinite;}
+   
+    @keyframes animate{
+    0%, 100% {background-image: url(imagenes/Portada.jpg)}
+    25% {background-image: url(imagenes/Portada2.jpg)}
+    50% {background-image: url(imagenes/Portada.jpg)}
+    75% {background-image: url(imagenes/Portada3.jpg)}}
+    </style>
 </head>
+
 <body>
     <header>
-            <nav class="menu-header">
-                <a href="Index.html" class="enlace"><img class="logo" src="Imagenes/Logo.png" alt="logo"></a>
-                <input type="checkbox" id="check">
-                <label for="check" class="checkbtn">
-                    <i class="fas fa-bars"></i>
-                </label>
-                <ul class="menu">
-                <li><a href="Index.html">Home</a></li>
-                <li><a href="Adopta.html">Adopta</a></a></li>
-                <li><a href="Info.html">Información</a></li>
-                <li><a href="Contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-
-    </header>
+        <nav class="menu-header">
+            <a href="Index.html" class="enlace"><img class="logo" src="Imagenes/Logo.png" alt="logo"></a>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+            <ul class="menu">
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="Adopta.html">Adopta</a></a></li>
+            <li><a href="Info.html">Información</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
    
     <main>   
     <div class="contenido-principal">
-            <ul class="imagenes-portada">
-             <img src="imagenes\Portada.jpg" alt="Portada manualidad">
-             <img src="imagenes\Portada2.jpg" alt="Portada manualidad">
-             <img src="imagenes\Portada3.jpg" alt="Portada manualidad">
-            </ul>
-            </div>
-    <div class="texto-portada">
-        <p>Bienvenido</p>
-        <ul class="texto-portadamov">
+        <div class="outer">
+            <div class="bienvenido">
+                <h6>Bienvenido</h6></div>
+            <div class="texto-portada">
+            <ul class="texto-portadamov">
                 <li>Humano</li>  
                 <li>Tutor</li> 
                 <li>Rescatista</li>   
-         </ul>
-    </div>
-         
-            <section >
-                <div class="Detalles">
-                <h1>Mascotas</h1>
-                <h2>Tu lugar de información</h2>
-                <p>Esta es una pagina donde vas a poder encontrar informacion sobre mascotas, refugios etc</p>
-                <h3>"Las mascotas llenan tu corazón sin intentarlo."</h3>
-            </div>
-         </section>
-
-    </main>
-    
-</body>
-    <footer class="Pie-pagina">
-        <nav class="grupo1">
-            <ul class="opciones-menu-Footer">
-                <li class="menu-item-footer"><a href="Index.html">Home</a></li>
-                <li class="menu-item-footer"><a href="Adopta.html">Adopta</a></a></li>
-                <li class="menu-item-footer"><a href="Info.html">Informacion importante</a></li>
-                <li class="menu-item-footer"><a href="Contacto.html">Contacto</a></li>
             </ul>
-        </nav>
+        </div>
+ </div>
+ </div>
+    <div class="Detalles">
+                <h1>Mascotas</h1>
+                <h2>TU LUGAR DE INFORMACIÓN</h2>
+                <p>En este sitio vas a poder encontrar información sobre mascotas, refugios y más.</p>
+                <img src="imagenes\Navegador.png" alt="logo2">
+                <h3>"Las mascotas llenan tu corazón sin intentarlo"</h3>
+            </div>
+    </main>
+</body>
+
+    <footer class="Pie-pagina">
+    <div class="grupo1">
+        <div class="logo-final">
+            
+        </div>
         <nav class="Redes">
                 <a href="https://www.facebook.com/Pif-Argentina-102160965795350/" target="new" class="fa fa-facebook"></a>
                 <a href="https://www.instagram.com/pifargentina/" target="new" class="fa fa-instagram"></a>
                 <a href="https://twitter.com/Mascotasargent" target="new" class="fa fa-twitter"></a>
                 <a href="https://www.youtube.com/watch?v=imqzsiXcxdg" target="new" class="fa fa-youtube"></a>
         </nav>
-        
-        <div class="grupo2">
-            <small>&copy; 2022 <b>Mascotas</b> - Todos los Derechos Reservados.</small>
+        <div><small>&copy; 2022 <b>Mascotas</b> - Todos los Derechos Reservados.</small>
         </div>
         <nav class="desarrollo">
-                <p>Hecho con ❤️ por Yesica Barreto</p>
-                <a href="https://github.com/Mishu21"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/yesica-barreto-104638b7/"><i class="fab fa-linkedin"></i></a>
-        </nav>
+            <p>Hecho con ❤️ por Yesica Barreto, Belen Serrapio, Cristian Azua</p>
+            <a href="https://github.com/Mishu21"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/yesica-barreto-104638b7/"><i class="fab fa-linkedin"></i></a>
+    </nav>
+    </div>
+
         </footer> 
-
-
 </html>
