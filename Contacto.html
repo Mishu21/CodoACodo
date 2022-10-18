@@ -8,96 +8,91 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylo/Contacto.css">
-    <link rel="stylesheet" href="stylo/General.css">	
+    <link rel="stylesheet" href="stylo/General.css">
     <link rel="icon" href="Imagenes/Navegador.png">
-    <script src="./forms.js"></script> 
+    <script src="js/Contacto.js"></script> 
     <script src="https://kit.fontawesome.com/2f54d626e8.js" crossorigin="anonymous"></script>
-    <title>Contacto</title>
 </head>
+
 <body>
     <header>
-        <nav class="header-menubar">
-            <a class="header-logo" href="Index.html"><img class="logo" src="Imagenes/Logo.png" alt="logo"></a>
-            
-            <ul class="opciones-menu">
-                <li class="opciones-menu-item"><a href="Index.html">Home</a></li>
-                <li class="opciones-menu-item"><a href="Adopta.html">Adopta</a></a></li>
-                <li class="opciones-menu-item"><a href="Info.html">Información</a></li>
-                <li class="opciones-menu-item"><a href="Contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    
-
-    </header>
-   
-    <main>
- 
-        <!-- <div class="section"> -->
-       
-        <section class="Home">
-             <form id="form-user" action="https://formsubmit.co/christianazu2@icloud.com" method="POST">
-            
-                <h1> Formulario de contacto </h1>
-              
-                <div class="form-box error" data-errormsg="">
-                    <label for="input-name">Nombre :</label>
-                    <input type="text" id="input-name" autofocus name="name" placeholder="Nombre" required tabindex="1" />
-                </div>
-                <div class="form-box" data-errormsg="">
-                    <label for="input-subject">Asunto :</label>
-                    <input type="text" id="input-subject" autofocus name="_subject" placeholder="Asunto" required tabindex="2" />
-                </div>
-                <div class="form-box" data-errormsg="">
-                    <label for="input-email">Email :</label>
-                    <input type="email" id="input-email" autofocus name="email" placeholder="Email" required tabindex="3" />
-                </div>
-                <div class="form-box" data-errormsg="">
-                    <label for="input-email">Mensaje:</label><br/>
-                    <textarea id="message" class="input" name="message" rows="7" cols="85" tabindex="4"></textarea>
-                    <span id="message_validation" class="error_message"></span>
-                </div>
-                <input type="hidden" name="_next" value= "https://christianazu.github.io/thanks.html">
-                <div class="form-box">
-                     <button id="button-cancel">Borrar</button>
-                    <button id="button-send">Enviar</button>
-                </div>
-            </form>
-        </section>
-      
-    <!-- </div> -->
-    <aside class="nexthome">
-        <ul class="contact_image">
-            <img src="imagenes\contact.png" alt="Contact us" width="400"
-            height="340">
+        <nav class="menu-header">
+            <a href="Index.html" class="enlace"><img class="logo" src="Imagenes/Logo.png" alt="logo"></a>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul class="menu">
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="Adopta.html">Adopta</a></a></li>
+            <li><a href="Info.html">Información</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
         </ul>
-    </aside>
+    </nav>
 
-    </main>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</header>
+       
+<main>
+     
+            <!-- <div class="section"> -->
+           
+            <section class="Home">
+                 <form id="form-user" action="https://formsubmit.co/christianazu2@icloud.com" method="POST">
+                
+                    <h2> Formulario de contacto </h2>
+                  
+                    <div class="form-box error" data-errormsg="">
+                        <label for="input-name">Nombre:</label>
+                        <input type="text" id="input-name" autofocus name="name" placeholder="Nombre" required tabindex="1" />
+                    </div>
+                    <div class="form-box" data-errormsg="">
+                        <label for="input-subject">Asunto:</label>
+                        <input type="text" id="input-subject" autofocus name="_subject" placeholder="Asunto" required tabindex="2" />
+                    </div>
+                    <div class="form-box" data-errormsg="">
+                        <label for="input-email">Email:</label>
+                        <input type="email" id="input-email" autofocus name="email" placeholder="Email" required tabindex="3" />
+                    </div>
+                    <div class="form-box" data-errormsg="">
+                        <label for="input-email">Mensaje:</label><br/>
+                        <textarea id="message" class="input" name="message" rows="7" cols="85" tabindex="4"></textarea>
+                        <span id="message_validation" class="error_message"></span>
+                    </div>
+                    <input type="hidden" name="_next" value= "https://christianazu.github.io/thanks.html">
+                    <div class="form-box">
+                         <button id="button-cancel">Borrar</button>
+                        <button id="button-send">Enviar</button>
+                    </div>
+                </form>
+            </section>
+          
+        <!-- </div> -->
+        <aside class="nexthome">
+            <ul class="contact_image">
+                <img src="imagenes\contact.png" alt="Contact us" width="400"
+                height="340">
+            </ul>
+        </aside>
+</main>
+
     <footer class="Pie-pagina">
         <div class="grupo1">
             <div class="logo-final">
-            <ul class="opciones-menu-Footer">
-                <li class="menu-item-footer"><a href="Index.html">Home</a></li>
-                <li class="menu-item-footer"><a href="Adopta.html">Adopta</a></a></li>
-                <li class="menu-item-footer"><a href="Info.html">Informacion importante</a></li>
-                <li class="menu-item-footer"><a href="Contacto.html">Contacto</a></li>
-                <P>"Las mascotas llenan tu corazón sin intentarlo."</P>
-            </ul>
-        <div class="Redes">
+            <img src="imagenes\Navegador.png" alt="logo2">
+            <p>"Las mascotas llenan tu corazón sin intentarlo"</P>
+        </div>
+        <nav class="Redes">
                 <a href="https://www.facebook.com/Pif-Argentina-102160965795350/" class="fa fa-facebook"></a>
                 <a href="https://www.instagram.com/pifargentina/"class="fa fa-instagram"></a>
                 <a href="https://twitter.com/Mascotasargent"class="fa fa-twitter"></a>
                 <a href="https://www.youtube.com/watch?v=imqzsiXcxdg"class="fa fa-youtube"></a>
-        </div>
-        </div>
-        </div>
+        </nav>
         
         <div class="grupo2">
             <small>&copy; 2022 <b>Mascotas</b> - Todos los Derechos Reservados.</small>
         </div>
         <div class="desarrollo">
-                <p>Hecho con ❤️ por Yesica Barreto</p>
+                <p>Hecho con ❤️ por Yesica Barreto, Belen Serrapio, Cristian</p>
                 <a href="https://github.com/Mishu21"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/yesica-barreto-104638b7/"><i class="fab fa-linkedin"></i></a>
          </div>

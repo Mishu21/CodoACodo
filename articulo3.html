@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylo/General.css">
-    <link rel="stylesheet" href="stylo/info.css">
+    <link rel="stylesheet" href="stylo/articulos.css">
     <link rel="icon" href="Imagenes/Navegador.png">
     <script src="https://kit.fontawesome.com/2f54d626e8.js" crossorigin="anonymous"></script>
     <title>Información</title>
@@ -19,7 +19,9 @@
         <nav class="menu-header">
             <a href="Index.html" class="enlace"><img class="logo" src="Imagenes/Logo.png" alt="logo"></a>
             <input type="checkbox" id="check">
-            <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
             <ul class="menu">
             <li><a href="Index.html">Inicio</a></li>
             <li><a href="Adopta.html">Adopta</a></a></li>
@@ -27,42 +29,23 @@
             <li><a href="Contacto.html">Contacto</a></li>
         </ul>
     </nav>
+
 </header>
 
     <main>
-        <section>
-<div class="cards">
-    <nav class="card card1">
-    <div class="container">
-            <img src="Imagenes/dbujo3.jpg" alt="beneficios">
-    </div>
-    <div class="details">
-            <h3>Tránsito de animales</h3>
-            <p>Recuperar animales de la calle, conseguirles una familia; la gratificación: el amor y la fidelidad de las mascotas.</p><br><br><br>
-            <button class="btn_card_btn" name="mas_info" type="button" onclick="window.location.href='articulo1.html';">Leer más</button></div>
-    </nav>
-    <nav class="card card2">
-    <div class="container">
-            <img src="Imagenes/dbujo4.jpg" alt="adoptar">
-    </div>
-    <div class="details">
-            <h3>Leer antes de adoptar</h3>
-            <p>Con el fin de promover la tenencia responsable y los cuidados pertinentes para su bienestar, te compartimos algunos consejos que hay que tener en cuenta antes de adoptar un animal de compañía.</p>
-            <button class="btn_card_btn" name="mas_info" type="button" onclick="window.location.href='articulo2.html';">Leer más</button></div>
-    </nav>
-    <nav class="card card3">
-        <div class="container">
-            <img src="Imagenes/dibujogatitos.jpg" alt="gatos o perros">
+       
+<section id="art3">
+        <div id="texto">
+            <h2>GATOS VS PERROS</h2><br>
+            <h3>¿Quieres adoptar una mascota pero no te decides entre un Gato o un Perro?</h3><br>
+            <p>En este video una especialista nos cuenta las diferencias a tener en cuenta para saber cual es la mejor opción para vos.</p>
         </div>
-        <div class="details">
-            <h3>Gatos o Perros</h3>
-            <p>Los amantes de las mascotas saben que la suya es la mejor, te traemos infomación sobre como saber qué tipo de mascota se adapta mejor a tu estilo de vida y necesidades.</p>
-            <button class="btn_card_btn" name="mas_info" type="button" onclick="window.location.href='articulo3.html';">Leer más</button></div>
-    </div>
-    </nav>
-    </div>
-</section> 
-
+         <div id="video">   
+            <iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/5FdZsuHQJvA?autoplay=1&origin=http://example.com"
+  frameborder="0"></iframe>
+</div>
+</section>
 </main>
 
 <footer class="Pie-pagina">
