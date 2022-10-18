@@ -1,121 +1,49 @@
-*,
-*::after,
-*:before {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
-html {
-    font: normal 20px/1.5 sans-serif;
-}
-
-
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    
-}
-
-.header-menubar{
-    display: flex;
-    list-style: none;
-    justify-content:space-between;
-    background-color: #DDA6DF;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 2rem;
-    width: 100%;
-    position: relative;
-    
-}
-
-
-.header-logo{
-    display: flex;
-    height: 5rem;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 100;
-}
-
-.logo {
-    width: 80px;
-    height: auto;
-    border-radius: 1rem;
-    margin: 0.5rem 1rem;
-}
-
-
-.opciones-menu{
-    display: flex;
-   /*margin-right: 4rem;*/
-    list-style: none; 
-    z-index: 100;
-    margin: auto;
-
-}
-
-.opciones-menu-item {
-    margin: 0 1rem;
-    width: max-content;    
-
-}
-
-a{
-    color: rgb(17, 11, 17);
-    text-decoration: none;  
-}
-
-
-
-
-
-
-h1 {
+h2 {
     margin: 1rem 2rem;
-}
 
-body {
-    font-family: "Roboto", sans-serif;
-    background: #f5f5f5;
+}
+section{
+        width: 100%;
+        height: 100vh;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        padding: 3rem;
+        box-sizing: border-box;
 }
 
 form {
     margin: 2rem;
-    width: 700px;
+    width: 800px;
     top: 10%;
     left: 5%;
 /*    transform: translate(-50%, -51%);*/
     position: absolute;
-  
+    background: #DDA6DF;
+    padding: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .contact_image{
     float: right;
-    top: 10%;
-    position: relative; 
-    left: -80px ; 
-    top: 70px; 
 }
+
 .form-box {
-    padding: 1rem;
     clear: both;
     width: 100%;
     position: relative;
-    background: #DDA6DF;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-
-
-   }
+}
 
 .form-box label {
     font-size: 2rem;
     float: left;
     width: 100px;
     margin-right: 20px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 
 .form-box input {
@@ -129,8 +57,9 @@ form {
     border: none;
     padding: 0.25rem 2rem;
     margin-right: 1rem;
+    border-radius: 25px;
     color: white;
-    background-color: cornflowerblue;
+    background-color: rgb(108, 11, 133);
     cursor: pointer;
 }
 
@@ -143,7 +72,6 @@ form {
     padding-left: 1rem;
     position: absolute;
     right: 0;
-   
     content: attr(data-errormsg);
 }
 

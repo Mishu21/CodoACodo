@@ -3,44 +3,36 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-
  
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Abril Fatface', cursive;
 } 
 
 main{
-       
-    font-family: 'Abril Fatface', cursive; 
-
+    font-family: 'Open Sans', sans-serif; 
 } 
 
-
-
-
-
 /*Header*/
-
-
-
  .menu-header{
     position: sticky;
     background-color:#DDA6DF ;
     height: 5rem;
     width: 100%;
-    
+    line-height: 80px;
 } 
-
-
 
 .enlace{
     position: absolute;
-    padding: 20px 50px;
+    padding-left: 30px;
+    padding-top: 10px;
+    box-sizing: border-box;
 }
 
 .logo{
-    height: 2.5rem;
+    width: 90px;
+    display: flex;
+    height: auto;
+    float: left;
 }
 
 .menu{
@@ -49,34 +41,31 @@ list-style: none;
 margin-right: 20px;
 } 
 
-
-
- .menu li{
+.menu li{
     display: inline-block;
-    line-height: 80px ;
+    line-height: 80px;
     margin: 0 5px;
+    font-family: 'Abril Fatface', cursive;
 } 
 
- .menu li a{
-    color: aqua;
+.menu li a{
+    color: rgb(116, 3, 91);
     padding: 7px 13px;
     text-transform: uppercase;
     text-decoration: none;
     border-radius: 3px;
 } 
 
-
-
-
 li a.active, li a:hover{
-    background-color: blueviolet;
+    background-color: rgb(96, 5, 124);
+    color: #DDA6DF;
     transition: .5s;
 }
 
 
 .checkbtn{
     font-size: 30px;
-    color: blueviolet;
+    color: rgb(133, 8, 85);
     float: right;
     line-height: 80px;
     margin-right: 20px;
@@ -87,11 +76,79 @@ li a.active, li a:hover{
     display: none;
 }
 
+/*footer*/
+.Pie-pagina{
+    width: 100%;
+    background-color: #DDA6DF;
+    display: flex;
+    margin: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.grupo1{
+    float: none;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 20px 0px 0px 0px;
+    font-size: 1,75rem;
+    color: #560458;
+}
+
+.logo-final p{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: thin;
+}
+
+.grupo1 img{
+    width: 40px;
+    height: auto;
+}
+
+.small {
+    float: none;
+    margin: auto;   
+}
+
+.Redes{
+    background:#DDA6DF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.Redes a{
+    text-decoration: none; 
+    display: inline-block;
+    padding: 7px 13px;
+    font-size: 2rem;
+    color: #560458;}
+
+.desarrollo {
+    color: #f4edf4;
+    background: #560458;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    align-items: center;
+    font-size: 0.75rem;
+}
+
+.desarrollo i {
+    color: #f4edf4;
+    margin: 0.5rem;
+}
 
 @media (max-width:952px){
     .enlace{
-        padding-left: 20px;
-    }
+        padding-left: 5px;
+        box-sizing: border-box;
+}
     
     .menu li a{
         font-size: 16px;}
@@ -99,19 +156,21 @@ li a.active, li a:hover{
 }
 
 
-@media (max-width:768px){
-    
+@media (max-width:858px){
+    main{
+        padding-top: 5rem;
+        box-sizing: border-box;
+}
     .checkbtn{
         display: block;
+}
 
-    }
-
-    .menu-header{
+.menu-header{
         position: fixed;  
         z-index:100;
+}
 
-    }
-    .menu{
+.menu{
         position: fixed;
         width: 100%;
         height: auto;
@@ -121,103 +180,28 @@ li a.active, li a:hover{
         left: -100%;
         text-align: center;
         transition: all .5s;
-    }
+}
  
-    .logo{
-        width: 50px;
-    }
-    .menu li{
+.logo{
+        width: 80px;       
+}
+
+.menu li{
         display: block;
         margin: 50px 0;
         line-height: 30px;
+}
 
-    }
-    .menu li a{
+.menu li a{
         font-size: 20px;
 
     }
 
-    li a:hover, li a.active{
+li a:hover, li a.active{
         background: none;
         color: aqua;
+}
 
-
-    }
 #check:checked ~ .menu{
     left: 0;
-}
-
-}
-
-/*footer*/
-
-.Pie-pagina{
-    
-    width: 100%;
-    background-color: #DDA6DF;
-    font-family: 'Abril Fatface', cursive;
-
-}
-
-.grupo1{
-
-    background:#DDA6DF;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    
-}
-
-
-
-.opciones-menu-Footer{
-    list-style: none;
-}
-
-.opciones-menu-Footer a{
-    text-decoration: none; 
-    
-    
-
-}
-
-.Redes{
-    background:#DDA6DF;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-
-}
-
-.Redes a{
-    text-decoration: none; 
-    display: inline-block;
-    padding: 7px 13px;
-}
-
-
-.grupo2{
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    font-family: 'Abril Fatface', cursive;
-} 
-.desarrollo {
-    font-size: 0.5rem;
-    color: #f4edf4;
-    background: #121212;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    
-    
-}
-.desarrollo a {
-    font-size: 1.5rem;
-}
-.desarrollo i {
-    color: #f4edf4;
-    margin: 1rem;
-}
+}}

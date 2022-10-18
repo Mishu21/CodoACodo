@@ -1,0 +1,48 @@
+#art1, #art2, #art3{
+    width: 100%;
+    height: auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 3rem;
+    box-sizing: border-box;}
+
+#art1, #art2, #art3 p{
+    font-size: 2vw;}
+
+#texto{
+    box-sizing: border-box;
+    float: center;}
+    
+#texto p{
+    text-align: left;}
+    
+#texto h2{
+    text-align: center;}
+
+#texto h3{
+    text-align: center;}
+
+#texto h4{
+        text-align: left;}
+
+#video{
+    float: center;
+    display: block;
+    box-sizing: border-box;}
+
+.btn_art_btn{
+    text-decoration: none;
+	margin-bottom: 10px;
+    margin-right: 10px;
+	text-align: center;
+	line-height: 2px;
+	width: 150px;
+	height: 35px;
+    background-color: #1a001a00;
+	color: #690786;
+	padding: 2px;
+	border-radius: 25px;
+	box-sizing: border-box;
+    float: right;}
