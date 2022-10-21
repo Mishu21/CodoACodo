@@ -2,7 +2,7 @@
 
 .motivos {
     position: relative;
-     margin: 2rem ; 
+    margin: 2rem; 
     display: flex;
     flex-direction: column; 
 
@@ -18,14 +18,12 @@
 
 .motivos  p {
      line-height: 2rem;
-     text-align: justify; 
-     
-}
-
+     text-align: justify;}
 
 
 .refugios-opciones{
     display: flex;
+    margin: 2rem;
     justify-content: space-around;
     text-align: center;
 }
@@ -35,13 +33,10 @@
 }
 
 
-
-
 .instagram{
     display: flex;
     justify-content: space-around;
-    text-align: center;
-   
+    text-align: center;  
 }
 
 .instagram iframe{
@@ -60,9 +55,9 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+    
 .instagram iframe {
     max-width: none;
-    
 }}
 
 
