@@ -49,7 +49,7 @@ margin-right: 20px;
 } 
 
 .menu li a{
-    color: rgb(116, 3, 91);
+    color: rgb(133, 8, 85);
     padding: 7px 13px;
     text-transform: uppercase;
     text-decoration: none;
@@ -57,7 +57,7 @@ margin-right: 20px;
 } 
 
 li a.active, li a:hover{
-    background-color: rgb(116, 3, 91);
+    background-color: rgb(133, 8, 85);
     color: #DDA6DF;
     transition: .5s;
 }
@@ -95,7 +95,7 @@ li a.active, li a:hover{
     margin: auto;
     padding: 20px 0px 0px 0px;
     font-size: 1,75rem;
-    color: rgb(116, 3, 91);
+    color: rgb(133, 8, 85);
 }
 
 .logo-final p{
@@ -129,7 +129,7 @@ li a.active, li a:hover{
 
 .desarrollo {
     color: #DDA6DF;
-    background: rgb(116, 3, 91);
+    background: rgb(133, 8, 85);
     justify-content: center;
     display: flex;
     width: 100%;
@@ -196,7 +196,7 @@ li a.active, li a:hover{
         font-size: 20px;}
 
 li a:hover, li a.active{
-        background-color: rgb(116, 3, 91);
+        background-color: rgb(133, 8, 85);
         color: #DDA6DF;
         transition: .5s;  
 }
