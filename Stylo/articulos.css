@@ -20,12 +20,13 @@
     text-align: left;}
 
 #art3{
-    align-content: center;}
+    align-content: center;
+    align-item: center;}
     
 #ytplayer{
-    text-align: center;
     display: block;
-    margin: 2rem;}
+    margin: 2rem;
+    width: 40%;}
 
 
 .btn_art_btn{
