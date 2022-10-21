@@ -12,20 +12,21 @@
     font-size: 2vw;}
 
 #texto{
+    position: relative;
+    margin: 2rem; 
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
     float: center;}
     
 #texto p{
-    text-align: left;}
+    text-align: justify;}
     
-#texto h2{
-    text-align: center;}
-
-#texto h3{
+#texto h2, h3{
     text-align: center;}
 
 #texto h4{
-        text-align: left;}
+    text-align: left;}
 
 #video{
     float: center;
