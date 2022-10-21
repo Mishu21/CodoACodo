@@ -10,7 +10,7 @@
     
 #texto h2, h3{
     text-align: center;
-    line-height: 4rem;
+    line-height: 2rem;
     text-transform: uppercase;}
 
 #texto h3{
@@ -22,10 +22,11 @@
 #art3{
     align-content: center;}
     
-#video{
+#ytplayer{
     align-item: center;
     display: block;
-    box-sizing: border-box;}
+    margin: 2rem;}
+
 
 .btn_art_btn{
     text-decoration: none;
