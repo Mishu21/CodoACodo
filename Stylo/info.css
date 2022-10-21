@@ -23,7 +23,7 @@
 .card{
     background-color: #f89df4;
     border-radius: 20px;
-    box-shadow: 5px 5px 7px RGB(95, 14, 72);
+    box-shadow: 5px 5px 7px RGB(95, 14, 72);}
     
 .card:hover{
         background-color: RGB(194, 83, 163);}
