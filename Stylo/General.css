@@ -128,7 +128,7 @@ li a.active, li a:hover{
     color: #560458;}
 
 .desarrollo {
-    color: #f4edf4;
+    color: rgb(116, 3, 91);
     background: #560458;
     justify-content: center;
     display: flex;
@@ -140,7 +140,7 @@ li a.active, li a:hover{
 }
 
 .desarrollo i {
-    color: #f4edf4;
+    color: rgb(116, 3, 91);
     margin: 0.5rem;
 }
 
