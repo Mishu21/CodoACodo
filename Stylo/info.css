@@ -23,11 +23,10 @@
 .card{
     background-color: #f89df4;
     border-radius: 20px;
-    box-shadow: 5px 5px 7px RGB(142, 10, 105);}
+    box-shadow: 5px 5px 7px RGB(95, 14, 72);
     
 .card:hover{
-        background-color: RGB(194, 83, 163);
-        color: #ffffff;}
+        background-color: RGB(194, 83, 163);}
 
 .container{
     position: relative;
@@ -72,7 +71,7 @@ img{
     padding: 20px 10px;
 }
 .details>h3{
-    color: rgb(133, 8, 85);
+    color: RGB(95, 14, 72);
     font-weight: 600;
     margin: 10px 0 15px 0;
     font-weight: bolder;
@@ -81,7 +80,7 @@ img{
     padding-right: 20px;
 }
 .details>p{
-    color: rgb(133, 8, 85);
+    color: RGB(95, 14, 72);
     line-height: 30px;
     font-weight: 400;
     box-sizing: border-box;
@@ -89,7 +88,8 @@ img{
     padding-right: 20px;
 }
 
-.btn_card_btn {text-decoration: none;
+.btn_card_btn {
+    text-decoration: none;
     margin-bottom: 10px;
     margin-right: 10px;
     text-align: center;
