@@ -58,7 +58,7 @@ margin-right: 20px;
 
 li a.active, li a:hover{
     background-color: rgb(96, 5, 124);
-    color: #FFFFFF;
+    color: #DDA6DF;
     transition: .5s;
 }
 
@@ -199,7 +199,7 @@ li a.active, li a:hover{
 
 li a:hover, li a.active{
         background: none;
-        color: aqua;
+        color: white;
 }
 
 #check:checked ~ .menu{
