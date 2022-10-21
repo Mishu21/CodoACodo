@@ -13,11 +13,17 @@
     line-height: 4rem;
     text-transform: uppercase;}
 
+#texto h3{
+    text-align: center;}
+
 #texto h4{
     text-align: left;}
 
+#art3{
+    align-content: center;}
+    
 #video{
-    float: center;
+    align-item: center;
     display: block;
     box-sizing: border-box;}
 
