@@ -1,7 +1,11 @@
-
+main{
+    background: url(../Imagenes/Fondo2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
 h2 {
     margin: 1rem 2rem;
-
+    text-align: center;
 }
 section{
         width: 100%;
@@ -11,49 +15,47 @@ section{
         justify-content: center;
         overflow: hidden;
         padding: 3rem;
-        box-sizing: border-box;
+    
 }
 
 form {
-    margin: 2rem;
-    width: 800px;
-    top: 10%;
-    left: 5%;
+    /* margin: 2rem; */
+    max-width: 800px;
+    /* top: 10%; */
+    /* left: 5%; */
 /*    transform: translate(-50%, -51%);*/
-    position: absolute;
+    position: relative;
     background: #DDA6DF;
     padding: 20px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .contact_image{
-    float: right;
+    width: 25%;
+    
 }
 
 .form-box {
-    clear: both;
-    width: 100%;
-    position: relative;
+    width: 50%;
+   
+    
 }
 
 .form-box label {
-    font-size: 2rem;
-    float: left;
     width: 100px;
     margin-right: 20px;
-    font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
+    
 }
 
 .form-box input {
-    font-size: 2rem;
-    width: 300px;
+    font-size: 1.5rem;
+    width: 100%;
     padding: 0.25rem 1rem;
 }
 
  .form-box button {
-    font-size: 2rem;
+    font-size: 1.5rem;
     border: none;
     padding: 0.25rem 2rem;
     margin-right: 1rem;
@@ -68,11 +70,25 @@ form {
     color: papayawhip;
     font-size: 0.7rem;
     line-height: 1.8;
-    width: 250px;
+    width: 15rem;
     padding-left: 1rem;
     position: absolute;
     right: 0;
     content: attr(data-errormsg);
 }
 
- 
+#message{
+    width: 150%;
+    height: 200%;
+
+}
+
+ /*resposive*/
+@media (max-width:768px){
+
+    
+}
+
+@media (max-width:576){
+    
+}
