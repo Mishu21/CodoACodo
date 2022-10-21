@@ -27,9 +27,8 @@
     
 #ytplayer{
     display: block;
-    float: clear;
-    margin: 2rem;
-    width: 60%;}
+    float: left;
+    margin: 2rem;}
 
 
 .btn_art_btn{
