@@ -56,7 +56,7 @@ margin-right: 20px;
     border-radius: 3px;
 } 
 
-.li a:hover, li a.active {
+li a:hover, li a.active {
     background-color: RGB(142, 10, 105);
     color: #DDA6DF;
     transition: .5s;
@@ -198,7 +198,7 @@ margin-right: 20px;
 .menu li a{
         font-size: 20px;}
 
-.li a:hover, li a.active{
+li a:hover, li a.active{
         background-color: RGB(95, 14, 72);
         color: #DDA6DF;
         transition: .5s;  
