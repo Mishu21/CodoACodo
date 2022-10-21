@@ -49,14 +49,14 @@ margin-right: 20px;
 } 
 
 .menu li a{
-    color: RGB(142, 10, 105);
+    color: RGB(95, 14, 72);
     padding: 7px 13px;
     text-transform: uppercase;
     text-decoration: none;
     border-radius: 3px;
 } 
 
-li a.active, li a:hover{
+.li a:hover, li a.active {
     background-color: RGB(142, 10, 105);
     color: #DDA6DF;
     transition: .5s;
@@ -95,7 +95,7 @@ li a.active, li a:hover{
     margin: auto;
     padding: 20px 0px 0px 0px;
     font-size: 1,75rem;
-    color: RGB(142, 10, 105);
+    color: RGB(95, 14, 72);
 }
 
 .logo-final p{
@@ -125,11 +125,14 @@ li a.active, li a:hover{
     display: inline-block;
     padding: 7px 13px;
     font-size: 2rem;
+    color:RGB(95, 14, 72);}
+
+.Redes a:hover, Redes a.active{
     color: #560458;}
 
 .desarrollo {
     color: #DDA6DF;
-    background: RGB(142, 10, 105);
+    background: RGB(95, 14, 72);
     justify-content: center;
     display: flex;
     width: 100%;
@@ -195,8 +198,8 @@ li a.active, li a:hover{
 .menu li a{
         font-size: 20px;}
 
-li a:hover, li a.active{
-        background-color: RGB(142, 10, 105);
+.li a:hover, li a.active{
+        background-color: RGB(95, 14, 72);
         color: #DDA6DF;
         transition: .5s;  
 }
