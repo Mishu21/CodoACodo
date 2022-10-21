@@ -24,6 +24,7 @@
     
 #ytplayer{
     align-item: center;
+    align-content: center;
     display: block;
     margin: 2rem;}
 
