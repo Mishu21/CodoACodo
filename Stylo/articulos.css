@@ -21,13 +21,15 @@
 
 #art3{
     align-content: center;
-    align-item: center;}
+    align-item: center;
+    width: 100%;
+    display: flex;}
     
 #ytplayer{
     display: block;
     float: center;
     margin: 2rem;
-    width: 80%;}
+    width: 60%;}
 
 
 .btn_art_btn{
