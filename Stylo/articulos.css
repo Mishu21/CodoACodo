@@ -23,8 +23,7 @@
     align-content: center;}
     
 #ytplayer{
-    align-item: center;
-    align-content: center;
+    text-align: center;
     display: block;
     margin: 2rem;}
 
