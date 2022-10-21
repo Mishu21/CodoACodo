@@ -4,15 +4,12 @@
     position: relative;
     margin: 2rem; 
     display: flex;
-    flex-direction: column; 
-
-}
+    flex-direction: column;}
 
 .motivos h2, h1{
     text-align: center;
     line-height: 4rem;
-    text-transform: uppercase;   
-    
+    text-transform: uppercase;  
 }
 
 
