@@ -58,7 +58,7 @@ margin-right: 20px;
 
 li a.active, li a:hover{
     background-color: rgb(96, 5, 124);
-    color: #DDA6DF;
+    color: #FFFFFF;
     transition: .5s;
 }
 
