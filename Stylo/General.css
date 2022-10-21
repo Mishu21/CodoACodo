@@ -95,7 +95,7 @@ li a.active, li a:hover{
     margin: auto;
     padding: 20px 0px 0px 0px;
     font-size: 1,75rem;
-    color: #560458;
+    color: rgb(116, 3, 91);
 }
 
 .logo-final p{
@@ -128,8 +128,8 @@ li a.active, li a:hover{
     color: #560458;}
 
 .desarrollo {
-    color: rgb(116, 3, 91);
-    background: #560458;
+    color: #DDA6DF;
+    background: rgb(116, 3, 91);
     justify-content: center;
     display: flex;
     width: 100%;
@@ -140,7 +140,7 @@ li a.active, li a:hover{
 }
 
 .desarrollo i {
-    color: rgb(116, 3, 91);
+    color: white;
     margin: 0.5rem;
 }
 
