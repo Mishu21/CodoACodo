@@ -193,13 +193,12 @@ li a.active, li a:hover{
 }
 
 .menu li a{
-        font-size: 20px;
-
-    }
+        font-size: 20px;}
 
 li a:hover, li a.active{
-        background: none;
-        color: white;
+        background: rgb(96, 5, 124);
+        color: #DDA6DF;
+        transition: .5s;  
 }
 
 #check:checked ~ .menu{
