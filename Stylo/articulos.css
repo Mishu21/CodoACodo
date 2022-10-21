@@ -23,11 +23,11 @@
     align-content: center;
     align-item: center;
     width: 100%;
-    display: flex;}
+    display: block;}
     
 #ytplayer{
     display: block;
-    float: center;
+    float: clear;
     margin: 2rem;
     width: 60%;}
 
