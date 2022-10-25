@@ -9,11 +9,11 @@
     place-items: center center;}
 
 .cards{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    display: grid;  
     padding: 20px;
     grid-gap: 40px;
 }
+
 .card{
     background-color: #f89df4;
     border-radius: 20px;
