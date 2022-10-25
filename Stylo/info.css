@@ -10,23 +10,18 @@
 
 .cards{
     display: grid;
-    grid-template-columns: repeat(3,minmax(400px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
     padding: 20px;
     grid-gap: 40px;
 }
-
-.cards::after {
-    content: "";
-    clear: both;
-    display: table;}
-
 .card{
     background-color: #f89df4;
     border-radius: 20px;
-    box-shadow: 5px 5px 7px RGB(95, 14, 72);}
+    box-shadow: 5px 5px 7px black;}
     
 .card:hover{
-        background-color: RGB(194, 83, 163);}
+        background-color: #e73cb4;
+        color: #ffffff}
 
 .container{
     position: relative;
@@ -35,7 +30,7 @@
 
 img{
     width: 100%;
-    object-fit: block;
+    object-fit: contain;
     border-radius: 20px 20px 0 0;
 }
 
@@ -71,7 +66,7 @@ img{
     padding: 20px 10px;
 }
 .details>h3{
-    color: RGB(95, 14, 72);
+    color: #000000;
     font-weight: 600;
     margin: 10px 0 15px 0;
     font-weight: bolder;
@@ -80,7 +75,7 @@ img{
     padding-right: 20px;
 }
 .details>p{
-    color: RGB(95, 14, 72);
+    color: #1d1d1d;
     line-height: 30px;
     font-weight: 400;
     box-sizing: border-box;
@@ -88,17 +83,17 @@ img{
     padding-right: 20px;
 }
 
-.btn_card_btn {
-    text-decoration: none;
-    margin-bottom: 10px;
+.btn_card_btn {text-decoration: none;
+	margin-bottom: 10px;
     margin-right: 10px;
-    text-align: center;
-    line-height: 2px;
-    width: 100px;
-    height: 50px;
-    background-color: RGB(142, 10, 105);
-    color: #ffffff;
-    padding: 2px;
-    border-radius: 25px;
-    box-sizing: border-box;
+	text-align: center;
+	line-height: 2px;
+	width: 100px;
+	height: 50px;
+    background-color: #1a001a;
+	color: #ffffff;
+	padding: 2px;
+	border-radius: 25px;
+	box-sizing: border-box;
     float: right;}
+
