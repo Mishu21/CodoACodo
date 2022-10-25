@@ -20,7 +20,7 @@ body{
     background-size: cover;
     background-position: center;
     font-family: 'Abril Fatface', cursive;
-    font-size: 10vh;
+    font-size: 8vh;
     text-shadow: 1px 1px 2px rgb(249, 247, 247), 0 0 0.2em rgb(248, 248, 251);
     color: #a017a0;
     text-align: center;}
@@ -52,6 +52,7 @@ body{
 .texto-portadamov{
     list-style: none;
     animation: cambiar 7s infinite;
+
 } 
 
 .Detalles{
@@ -94,6 +95,7 @@ body{
     font-size: 6vh;}
     .Detalles{
     padding: 25px;}
+    
 }
 
 @media (max-width:576){
