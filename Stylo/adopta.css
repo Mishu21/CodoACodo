@@ -2,30 +2,26 @@
 
 .motivos {
     position: relative;
-     margin: 2rem ; 
+    margin: 2rem; 
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;}
 
-}
-
-.motivos h2, h1{
+.motivos h2{
     text-align: center;
     line-height: 4rem;
-    text-transform: uppercase;   
-    
+    text-transform: uppercase;  
 }
 
 
 .motivos  p {
      line-height: 2rem;
-     text-align: justify; 
-     
-}
-
+     text-align: justify;}
 
 
 .refugios-opciones{
     display: flex;
+    margin: 2rem;
+    line-height: 2rem;
     justify-content: space-around;
     text-align: center;
 }
@@ -35,13 +31,10 @@
 }
 
 
-
-
 .instagram{
     display: flex;
     justify-content: space-around;
-    text-align: center;
-   
+    text-align: center;  
 }
 
 .instagram iframe{
@@ -60,9 +53,9 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+    
 .instagram iframe {
     max-width: none;
-    
 }}
 
 

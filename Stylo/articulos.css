@@ -1,48 +1,47 @@
-#art1, #art2, #art3{
-    width: 100%;
-    height: auto;
-    display: block;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    padding: 3rem;
-    box-sizing: border-box;}
-
-#art1, #art2, #art3 p{
-    font-size: 2vw;}
-
 #texto{
-    box-sizing: border-box;
-    float: center;}
+    position: relative;
+    margin: 2rem; 
+    display: flex;
+    flex-direction: column;}
     
 #texto p{
-    text-align: left;}
+    text-align: justify;
+    line-height: 2rem}
     
-#texto h2{
-    text-align: center;}
+#texto h2, h3{
+    text-align: center;
+    line-height: 2rem;
+    text-transform: uppercase;}
 
 #texto h3{
     text-align: center;}
 
 #texto h4{
-        text-align: left;}
+    text-align: left;}
 
-#video{
-    float: center;
+#art3{
+    align-content: center;
+    align-item: center;
+    width: 100%;
+    display: block;}
+    
+#ytplayer{
     display: block;
-    box-sizing: border-box;}
+    float: left;
+    margin: 2rem;}
+
 
 .btn_art_btn{
     text-decoration: none;
-	margin-bottom: 10px;
+    margin-bottom: 10px;
     margin-right: 10px;
-	text-align: center;
-	line-height: 2px;
-	width: 150px;
-	height: 35px;
+    text-align: center;
+    line-height: 2px;
+    width: 150px;
+    height: 35px;
     background-color: #1a001a00;
-	color: #690786;
-	padding: 2px;
-	border-radius: 25px;
-	box-sizing: border-box;
+    color: #690786;
+    padding: 2px;
+    border-radius: 25px;
+    box-sizing: border-box;
     float: right;}
