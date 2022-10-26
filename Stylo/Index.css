@@ -63,7 +63,8 @@ body{
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    padding: 50px
+    padding: 50px;
+    font-size: 20vw;
 }
 .Detalles img{
     width: 100px;
