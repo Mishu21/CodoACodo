@@ -23,8 +23,8 @@ main{
 
 .enlace{
     position: absolute;
-    padding-left: 30px;
-    padding-top: 10px;
+    padding-left: 3rem;
+    padding-top: 2rem;
     box-sizing: border-box;
 }
 
@@ -124,7 +124,7 @@ li a:hover, li a.active {
     text-decoration: none; 
     display: inline-block;
     padding: 7px 13px;
-    font-size: 2rem;
+    font-size: 2vh;
     color:RGB(95, 14, 72);}
 
 .Redes a:hover, Redes a.active{
@@ -139,7 +139,7 @@ li a:hover, li a.active {
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
     align-items: center;
-    font-size: 0.75rem;
+    font-size: 1vh;
 }
 
 .desarrollo i {
@@ -154,7 +154,7 @@ li a:hover, li a.active {
 }
     
     .menu li a{
-        font-size: 16px;}
+        font-size: 4vh;}
     
 }
 
@@ -191,12 +191,12 @@ li a:hover, li a.active {
 
 .menu li{
         display: block;
-        margin: 50px 0;
+        margin: 2rem;
         line-height: 30px;
 }
 
 .menu li a{
-        font-size: 20px;}
+        font-size: 3vh;}
 
 li a:hover, li a.active{
         background-color: RGB(95, 14, 72);
@@ -206,4 +206,14 @@ li a:hover, li a.active{
 
 #check:checked ~ .menu{
     left: 0;
+}}
+
+@media (max-width:480px){
+    .enlace{
+        padding-left: 1rem;
+        box-sizing: border-box;
+}
+    
+    .menu li a{
+        font-size: 2vh;}
 }}
