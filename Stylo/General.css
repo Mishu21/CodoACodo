@@ -154,7 +154,7 @@ li a:hover, li a.active {
 }
     
     .menu li a{
-        font-size: 3vh;}
+        font-size: 5vh;}
     
 }
 
@@ -196,7 +196,7 @@ li a:hover, li a.active {
 }
 
 .menu li a{
-        font-size: 2vh;}
+        font-size: 4vh;}
 
 li a:hover, li a.active{
         background-color: RGB(95, 14, 72);
@@ -215,4 +215,4 @@ li a:hover, li a.active{
 }
     
     .menu li a{
-        font-size: 2vh;}
+        font-size: 3vh;}
