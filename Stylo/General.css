@@ -154,7 +154,7 @@ li a:hover, li a.active {
 }
     
     .menu li a{
-        font-size: 16px;}
+        font-size: 3vh;}
     
 }
 
@@ -191,12 +191,12 @@ li a:hover, li a.active {
 
 .menu li{
         display: block;
-        margin: 50px 0;
+        margin: 1rem;
         line-height: 30px;
 }
 
 .menu li a{
-        font-size: 20px;}
+        font-size: 2vh;}
 
 li a:hover, li a.active{
         background-color: RGB(95, 14, 72);
