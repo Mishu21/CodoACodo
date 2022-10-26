@@ -45,7 +45,6 @@ storedBreeds = data;
    // Indicamos que cada 5 segundos cambie la imagen
    setInterval(rotarImagenes,5000);
 
-   rotarImagenes1();
-   setInterval(rotarImagenes1,5000);
+  
 
  }
