@@ -59,7 +59,7 @@ body{
     text-align: center;
     display: block;
     width: 100%;
-    height: 80vh;
+    height: auto;
     align-items: center;
     justify-content: center;
     overflow: hidden;
@@ -72,21 +72,21 @@ body{
 }
 
 .Detalles h1{
-    font-size: 8vw;
+    font-size: 10vh;
 }
 
 .Detalles h2{
-    font-size: 2vw;
+    font-size: 3vh;
     color: #cf6ecf;
     font-family: 'Open Sans', sans-serif;
     font-style: bolder;}
 
 .Detalles h3{
-    font-size: 3vw;
+    font-size: 6vh;
     margin: 0px 0px 50px 0px;}
 
 .Detalles p{
-    font-size: 2vw;
+    font-size: 4vh;
 }
 
 /*resposive*/
