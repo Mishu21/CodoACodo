@@ -58,7 +58,7 @@
     max-width: none;
 }
 
-img {
+img1 {
  
     display: flex;
     max-width: 80%;
@@ -78,7 +78,7 @@ img {
   
   }
 
-  #img  {
+  #img1  {
     float: right;   
      margin: 0px 60px 150px 100px;
     }
