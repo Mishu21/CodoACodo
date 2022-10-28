@@ -58,6 +58,7 @@
     max-width: none;
 }
 
+
 img {
  
     display: flex;
@@ -68,6 +69,33 @@ img {
    overflow: hidden;
 
   }
+  
+       
+  .slider-container {
+  
+    width: 400px;
+    text-align: right;
+    overflow: hidden;
+  
+  }
+
+  #img  {
+    float: right;   
+     margin: 0px 60px 150px 100px;
+    }
+   
+    .maincontent{
+        padding-top: 0%;
+        padding-left:0%;
+        position: absolute ; right: -33px; bottom: -550px; 
+
+      }
+      
+      .col {
+         padding: 1%;
+        margin: 10px; width: 400px;
+        
+      }
   
 
 
