@@ -59,7 +59,7 @@
 }
 
 
-img {
+.grid img {
  
     display: flex;
     max-width: 80%;
