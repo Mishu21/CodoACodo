@@ -1,4 +1,5 @@
 #art1, #art2, #art3{
+	height:
     display: flex;
     position: relative;
     flex-direction: column;
@@ -13,7 +14,8 @@
     float: center;}
     
 #texto p{
-    text-align: left;}
+     line-height: 2rem;
+     text-align: justify;}
     
 #texto h2{
     text-align: center;}
