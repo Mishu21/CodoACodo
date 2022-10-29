@@ -5,12 +5,14 @@ main{
 }
 
 .IMG-ENVIADO{
+    
     display: block;
     width: 30rem;
     border-radius:5rem;
     padding-top: 30px;
     padding-bottom: 30px;
-    justify-items: center;
+    justify-content: center;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
 
@@ -28,18 +30,25 @@ main{
 }
 
 @media(max-width:858px){
+    main{
+        padding-top: 5rem
+    }
     .IMG-ENVIADO{
         width: 20rem;
+
     }
 }
 
 @media (max-width:576px){
+    main{
+        padding-top: 5rem
+    }
     .IMG-ENVIADO{
         width: 15rem;
     }
     
     .form-box button {
-        margin-bottom: 5%
+        margin-bottom: 5%;
         
        
     }
