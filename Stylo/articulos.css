@@ -5,9 +5,6 @@
     justify-content: center;
     margin: 2rem;}
 
-#art1, #art2, #art3 p{
-    font-size: 2vh;}
-
 #texto{
     box-sizing: border-box;
     float: center;}
