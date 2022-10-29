@@ -23,7 +23,7 @@
         text-align: left;}
 
 #video{
-    
+    position: relative;
     height: 0;
     padding-bottom: 56.2%;
     overflow: hidden;
