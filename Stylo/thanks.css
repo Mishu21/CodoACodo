@@ -8,15 +8,18 @@ main{
     display: block;
     width: 30rem;
     border-radius:5rem;
-    padding-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     justify-items: center;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 .ME{
     justify-items: center;
     text-align: center;
+    padding-bottom: 25px;
 }
 
 @media (max-width:952px){
