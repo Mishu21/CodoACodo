@@ -84,23 +84,6 @@ form {
     height: 200%;
 
 
-.IMG-ENVIADO{
-    display: block;
-    top: 0;
-    left: 0;
-    width: 30rem;
-    border-radius: 5rem;
-    padding-top: 10px;
-    justify-items: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.ME{
-    justify-items: center;
-    text-align: center;
-}
-
  /*resposive*/
 @media (max-width:952px){
 
@@ -108,15 +91,10 @@ form {
 }
 
 @media(max-width:858px){
-    .IMG-ENVIADO{
-        width: 20rem;
-    }
+   
 }
 
 @media (max-width:576px){
-    .IMG-ENVIADO{
-        width: 15rem;
-    }
     
     .form-box button {
         margin-bottom: 5%
