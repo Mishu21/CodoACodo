@@ -1,0 +1,43 @@
+main{
+    background: url(../Imagenes/Fondo2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.IMG-ENVIADO{
+    display: block;
+    width: 30rem;
+    border-radius:5rem;
+    padding-top: 10px;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ME{
+    justify-items: center;
+    text-align: center;
+}
+
+@media (max-width:952px){
+
+    
+}
+
+@media(max-width:858px){
+    .IMG-ENVIADO{
+        width: 20rem;
+    }
+}
+
+@media (max-width:576px){
+    .IMG-ENVIADO{
+        width: 15rem;
+    }
+    
+    .form-box button {
+        margin-bottom: 5%
+        
+       
+    }
+}
