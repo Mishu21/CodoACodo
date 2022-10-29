@@ -1,5 +1,4 @@
 #art1, #art2, #art3{
-	height:
     display: flex;
     position: relative;
     flex-direction: column;
@@ -7,7 +6,7 @@
     margin: 2rem;}
 
 #art1, #art2, #art3 p{
-    font-size: 2vw;}
+    font-size: 2vh;}
 
 #texto{
     box-sizing: border-box;
