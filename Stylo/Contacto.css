@@ -108,13 +108,13 @@ form {
 }
 
 @media(max-width:858px){
-    .enviado{
+    .IMG-ENVIADO{
         width: 20rem;
     }
 }
 
 @media (max-width:576px){
-    .enviado{
+    .IMG-ENVIADO{
         width: 15rem;
     }
     
