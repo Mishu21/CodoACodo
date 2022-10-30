@@ -3,6 +3,20 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f0e6f6;
+}
+
+::-webkit-scrollbar-thumb {
+    background:#DDA6DF;
+    border-radius: 50px;
+}
+
  
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Abril Fatface', cursive;
