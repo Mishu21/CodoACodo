@@ -29,7 +29,7 @@ storedBreeds = data;
    // cambiamos la imagen
    document.getElementById("img").src=storedBreeds[index].image.url;
   })
-  .catch(function(error) {
+  .catch(function(  error) {
      console.log(error);
   });
 }
@@ -44,7 +44,6 @@ storedBreeds = data;
  
    // Indicamos que cada 5 segundos cambie la imagen
    setInterval(rotarImagenes,5000);
-
-  
+ 
 
  }
