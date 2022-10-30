@@ -199,13 +199,29 @@ li a:hover, li a.active{
 
 #check:checked ~ .menu{
     left: 0;
-}}
+}
+    
+.IMG-ENVIADO{
+        width: 25rem;
+
+    }
+} 
+    }
 
 @media (max-width:480px){
     .enlace{
         padding-left: 1rem;
-        box-sizing: border-box;
-}
+        box-sizing: border-box;}
     
     .menu li a{
         font-size: 3vh;}
+    
+    .IMG-ENVIADO{
+        width: 15rem;
+    }
+    
+    .form-box button {
+        margin-bottom: 5%;
+        
+       
+    }}
