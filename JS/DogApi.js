@@ -1,5 +1,5 @@
 //change the limit to however many images to use
-const url1 = ` https://api.thedogapi.com/v1/images/search?limit=3&size=medium`;
+const url1 = ` https://api.thedogapi.com/v1/images/search?limit=5&size=medium`;
 const api_key1 = "live_45GrucpOIRL6zbddocD9XdPMaUG7iqNTAz1ij7xfA2LQCXONSNea4FtwLNnTHMBW"
 
  fetch(url1,{headers: {
