@@ -82,43 +82,4 @@ aside {
        
  
 
-#imagesCat #img1 {
- 
-    display: flex;
-    max-width: 80%;
-    height: 250px;      
-    padding: 0;
-    border-radius: 15%;
-   overflow: hidden;
-
-  }
-  
-       
-  .slider-container {
-  
-    width: 400px;
-    text-align: right;
-    overflow: hidden;
-
-
-  }
-
-  #img  {
-    float: right;   
-     margin: 0px 75px 15px 100px;
-    }
-   
-    .maincontent{
-        padding-top: 0%;
-        padding-left:0%;
-        position: relative; 
-
-
-      }
-      
-      .col {
-         padding: 1%;
-        margin: 10px; width: 400px;
-        
-      }
    
