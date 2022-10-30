@@ -80,6 +80,9 @@ aside {
   background-color: lightgray;
 }
        
- 
-
-   
+    img.logo{
+   width: 90px;
+    display: flex;
+    height: auto;
+    float: left;
+   }
