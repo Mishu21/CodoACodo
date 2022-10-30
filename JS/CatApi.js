@@ -27,7 +27,7 @@ storedBreeds = data;
    var index=Math.floor((Math.random()*storedBreeds.length));
  
    // cambiamos la imagen
-   document.getElementById("img").src=storedBreeds[index].image.url;
+   document.getElementById("img1").src=storedBreeds[index].image.url;
   })
   .catch(function(  error) {
      console.log(error);
