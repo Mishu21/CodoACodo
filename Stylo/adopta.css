@@ -60,10 +60,19 @@
 
    
 .sliding-img {
+              display: flex;
+    max-width: 80%;
+    height: 250px;      
+    padding: 0;
+    border-radius: 15%;
+   overflow: hidden;
+    float: right;   
+    margin: 0px 60px 150px 100px;
+      
 }
 
 aside {
-  width: 30%;
+  width: 60%;
   padding-left: 15px;
   margin-left: 15px;
   float: right;
@@ -91,15 +100,7 @@ img {
     text-align: right;
     overflow: hidden;
 
-          display: flex;
-    max-width: 80%;
-    height: 250px;      
-    padding: 0;
-    border-radius: 15%;
-   overflow: hidden;
-    float: right;   
-    margin: 0px 60px 150px 100px;
-      
+
   }
 
   #img  {
