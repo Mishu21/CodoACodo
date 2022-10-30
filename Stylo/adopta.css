@@ -82,7 +82,7 @@ aside {
        
  
 
-img1 {
+#imageCat #img1 {
  
     display: flex;
     max-width: 80%;
