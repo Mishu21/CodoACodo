@@ -82,11 +82,11 @@ aside {
        
  
 
-.img {
+img {
  
     display: flex;
     max-width: 80%;
-    height: 60px;      
+    height: 250px;      
     padding: 0;
     border-radius: 15%;
    overflow: hidden;
