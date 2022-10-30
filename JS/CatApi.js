@@ -1,4 +1,4 @@
-const url = `https://api.thecatapi.com/v1/breeds&size=small`;
+const url = `https://api.thecatapi.com/v1/breeds`;
    const api_key = "live_j9UhjlyVBX2EVZD5nMY0r7aW22CLD9HNvnm8m3g8a2WtLmgNPFaazo4yVIJrJYUJ"
   
 let storedBreeds = []
@@ -27,7 +27,7 @@ storedBreeds = data;
    var index=Math.floor((Math.random()*storedBreeds.length));
  
    // cambiamos la imagen
-   document.getElementById("img").src=storedBreeds[index].image.url;
+   document.getElementById("img1").src=storedBreeds[index].image.url;
   })
   .catch(function(  error) {
      console.log(error);
