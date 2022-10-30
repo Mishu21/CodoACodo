@@ -12,7 +12,7 @@ const api_key1 = "live_45GrucpOIRL6zbddocD9XdPMaUG7iqNTAz1ij7xfA2LQCXONSNea4FtwL
   let imagesData = data;
   imagesData.map(function(imageData) {
     
-    let image = document.createElement('img');
+    let image = document.createElement('img1');
     //use the url from the image object
     image.src = `${imageData.url}`;
         
