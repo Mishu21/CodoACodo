@@ -201,11 +201,7 @@ li a:hover, li a.active{
     left: 0;
 }
     
-.IMG-ENVIADO{
-        width: 25rem;
 
-    }
-} 
     }
 
 @media (max-width:480px){
@@ -216,12 +212,4 @@ li a:hover, li a.active{
     .menu li a{
         font-size: 3vh;}
     
-    .IMG-ENVIADO{
-        width: 15rem;
-    }
-    
-    .form-box button {
-        margin-bottom: 5%;
-        
-       
-    }}
+  }
