@@ -1,4 +1,4 @@
-const url = `https://api.thecatapi.com/v1/breeds`;
+const url = `https://api.thecatapi.com/v1/breeds&size=small`;
    const api_key = "live_j9UhjlyVBX2EVZD5nMY0r7aW22CLD9HNvnm8m3g8a2WtLmgNPFaazo4yVIJrJYUJ"
   
 let storedBreeds = []
