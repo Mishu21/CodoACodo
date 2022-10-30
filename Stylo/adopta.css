@@ -85,7 +85,7 @@ aside {
 
      
 
-img1 {
+img {
  
     display: flex;
     max-width: 80%;
@@ -105,7 +105,7 @@ img1 {
   
   }
 
-  #img1  {
+  #img  {
     float: right;   
      margin: 0px 75px 15px 100px;
     }
