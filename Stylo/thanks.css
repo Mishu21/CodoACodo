@@ -9,7 +9,7 @@ main{
     padding-bottom: 30px;
 }
 .IMG-ENVIADO{
-    width: 30rem;
+    width: 75%;
     border-radius:5rem;
 }
 
@@ -30,18 +30,12 @@ main{
     main{
         padding-top: 5rem
     }
-    .IMG-ENVIADO{
-        width: 20rem;
-
-    }
+   
 }
 
 @media (max-width:576px){
     main{
         padding-top: 5rem
-    }
-    .IMG-ENVIADO{
-        width: 75%;
     }
     
     .form-box button {
