@@ -180,9 +180,7 @@ li a:hover, li a.active {
         transition: all .5s;
 }
  
-.logo{
-        width: 80px;       
-}
+
 
 .menu li{
         display: block;
